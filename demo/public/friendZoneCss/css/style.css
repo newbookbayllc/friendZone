@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+a
+{
+	color:black
+}
+
+.navigation
+{
+	background:#999;
+	min-height:900px
+}
+.navigation li:hover
+{
+	background:#666
+}
+.navigation nav li a:before
+{
+	content:url(../images/block.png);
+	margin-right:5px
+}
+.sub-menu
+{
+	background:#E5E5E5;
+	min-height:900px;
+	padding:0
+}
+.invite-friend p
+{
+	text-align:center;
+	vertical-align:super;
+	padding:10px 0
+	
+}
+.invite-friend p:before
+{
+	content:url(../images/plus.png);
+	vertical-align:sub;
+	margin-right:5px;
+	
+}
+.sub-menu-slide-container ul
+{
+	padding:0
+}
+.sub-menu-slide-container li
+{
+	background:#C9C9C9;
+	list-style:none;
+	margin:5px 0
+}
+.sub-menu-slide-container li:hover .contact-details:after
+{
+	content:url(../images/settingd-icon.png);
+}
+.arrow-active, .arrow-active:before
+{
+	content:"▲";
+}
+.arrow, .arrow:before
+{
+	content:"▼";
+}
+
+.contact-user-book:before
+{
+	content:url(../images/user-edit.png) !important;
+}
+.contact-details
+{
+	margin-bottom:25px;
+	cursor:pointer
+}
+.contact-details:before
+{
+	content:url(../images/user.png);
+	float:left;
+	margin:5px 10px 5px 10px
+	
+}
+.contact-details p
+{
+	margin:0;
+	font-size:12px
+}
+.footer-option
+{
+	
+}
+.footer-option > div
+{
+	background:#c2c3c3;
+	
+}
+.sub-menu .row
+{
+	margin:0
+}
+.footer-active
+{
+	background:#aeaeaf !important;
+	
+}
+.footer-option-parent
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.footer-option-parent p
+{
+	text-align:center;
+	padding:5px
+}
+.footer-option-parent p a
+{
+	display:block;
+	padding:8px
+}
+
+.content .img-responsive
+{
+	margin:auto;
+}
+
+.content
+{
+	text-align:center;
+	margin-top:5%
+}
+.content .title
+{
+	text-align:right
+}
+
+.content .value
+{
+	text-align:left;
+	padding-left:10px
+}
+
+.content-button
+{
+	margin-top:100px
+}
+.button-area
+{
+	width: 155px;
+  margin: auto;
+  background: #9B9B9B;
+	padding:10px
+}
+.icon-container
+{
+	-webkit-box-shadow: 0 0 5px 0 ;
+	-ms-box-shadow: 0 0 5px 0 ;
+	-moz-box-shadow: 0 0 5px 0 ;
+	-o-box-shadow: 0 0 5px 0 ;
+	box-shadow: 0 0 5px 0 ;
+	width:90%;
+	margin:auto;
+	padding:20px;
+	margin-top:30px
+}
+.icon-container .content-button
+{
+	margin-top:40px
+}
+.icon-container .heading
+{
+	font-size:18px;
+	font-weight:bold
+}
+.icon-container .icons p
+{
+	font-size:12px;
+	margin:0
+}
+.close1
+{
+	position:absolute;
+	right:46px;
+	top:89px
+}
+
+.gift-tab1 .tabs
+{
+	max-width:90%;
+	margin:auto;
+	border-bottom:solid thin #9B9B9B
+}
+.gift-tab1 .close1
+{
+	top:0;
+	right:0
+}
+
+.gift-tab1 .dp
+{
+	margin:0 0 30px 0
+}
+
+.gift-tab1 .dp img
+{
+	margin-left:50px;
+	max-width:55px;
+	float:left;
+	margin-right:15px
+}
+.dp-name
+{
+	text-align:left;
+}
+.dp-name p
+{
+	margin:0
+}
+.tabs-active
+{
+	border-bottom:solid #999
+}
+.gift-tab1 .icon-container
+{
+	box-shadow:none
+}
+.gift-tab1 .content-button
+{
+	display:none
+}
+
+.gift-tab1 .icons
+{
+	margin-bottom:30px
+}
+.gift-tab-2 .user-comment
+{
+	margin:15px 0
+}
+
+.gift-tab-2 .user-comment p
+{
+	text-align:left
+}
+
+.gift-tab-2 .user-comment div p:nth-child(1)
+{
+	color:#999
+}
+
+.gift-tab-2 .user-comment > div
+{
+	margin-bottom:25px
+}
+.gift-tab-3 .literary > div
+{
+	padding:20px
+}
+.gift-tab-3 .literary img
+{
+	float:left;
+}
+.conversation .contact-details p
+{
+	padding-top:13px
+}
+.conversation .contact-details:before
+{
+	margin:0
+}
+.conversation .contact-details
+{
+	margin-left:5%;
+}
+.conversation .comment-data
+{
+	background:#f0f1f1
+}
+.conversation .me
+{
+	float:left;
+	clear:both;
+	text-align:left;
+	width:100%;
+}
+
+.conversation .me:before, .conversation .you:before
+{
+	content:url(../images/user.png);
+	display:block
+}
+
+.conversation .you
+{
+	float:right;
+	clear:both;
+	text-align:right;
+	
+}
+.conversation .comments-section ,.me ,.you
+{
+	margin:auto
+}
+.conversation .comment-data
+{
+	width:85%;
+	margin:auto
+}
+.conversation .comment-data p
+{
+	word-wrap:break-word
+}
+.writer
+{
+	position:absolute;
+	bottom:0;
+	border-top:solid medium #999;
+	width:100%
+}
+.conversation .content
+{
+	min-height:840px;
+}
+.conversation .writer textarea
+{
+	width:100%;
+	height:250px
+}
+.writer-submit
+{
+	  width: 60px;
+  background: #999;
+  float: right;
+  position: relative;
+  top: -21px;
+  cursor:pointer
+}
+.navigation nav li:nth-child(2)
+{
+	background:#6D6D6D
+}
