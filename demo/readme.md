@@ -1,3 +1,19 @@
+1. download 'XAMPP'. The XAMPP contains Apache + MySQL + PHP. So you don't have to download 
+and install Apache, database and php manually. 
+2 put the 'demo' folder(this folder) into the directory of "\xmapp\htdocs". The the direcory -'\xmapp'
+is where you installed 'XAMPP'. Ater this, you have the directory of "\xmapp\htdocs\demo".
+3 I suggest you to use the editor "Bracket".
+It has many nice figures: 
+	It focus on websites development. 
+	You can open a whole folder and see the tree structure of the project.
+4 open you XAMPP, you'll see the XAMPP Control pannel 
+5 in the row of Apache, click on 'start', your apache will work.
+  in the row of MySQL, click on 'start', your MySQL database will work.
+6 in the row of MySQL, click on 'admin', opens the administrator webpage. In the left above corner,
+click on 'New' to create a new database. Give the name 'laravel5_0_15' to the database. ( You can 
+give other names to the database if you are familiar with the process later)
+7 return 
+
 1. create databse and change database setting
 2. in cmd run 'php artisan fresh'
 3 'php artisan migrate' and 'php artisan seed'

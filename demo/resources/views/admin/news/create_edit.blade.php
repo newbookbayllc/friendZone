@@ -70,6 +70,7 @@
 						}}
 					</div>
 				</div>
+				{{$var}}
 				<div
 					class="form-group {{{ $errors->has('content') ? 'has-error' : '' }}}">
 					<div class="col-md-12">

@@ -16,14 +16,33 @@ Route::get('friendZone/{id}','friendZone\friendController@initiateFriendZone');
 //friends page
 //Route::get('friendZone/{id}','friendZone\friendController@clickFriendZone');
 Route::post('friendZone/clickUser','friendZone\friendController@showUserInfo');
+//add friend
+Route::post('friendZone/addFriend','friendZone\friendController@addFriend');
+//check request
+Route::get('friendZone/conversation/showConversation','friendZone\requestController@showConversation');
 
-//personal page // i go to the bathroom for a while 
-//Route::get('friendZone/personalPage','friendZone\friendController@showUserInfo');
+//start conversation
+Route::get('friendZone/startConversation/{sign},{friendId}','friendZone\requestController@startConversation');
+
+Route::post('friendZone/conversation/sendMsg','friendZone\requestController@sendMsg');
+Route::post('friendZone/receiveMsg','friendZone\requestcontroller@receiveMsg');
+
+//personal page
+//Route::post('friendzone/personalPage','friendZone\friendController@personalPage');
+Route::post('friendZone/personalPage','friendZone\friendController@personalPage');
 Route::post('friendZone/saveEdit','friendZone\friendController@saveEdit');
+
+//sendGift Page
+Route::post('friendZone/sendGift','friendZone\friendController@sendGift');
+//check Request
+Route::post('friendZone/checkRequest','friendZone\friendController@checkRequest');
+Route::post('friendZone/processRequest','friendZone\friendController@processRequest');
+Route::post('friendZone/sendGiftRequest','friendZone\friendController@sendGiftRequest');
+
 
 Route::get('/', 'WelcomeController@index');
 Route::get('test1',function(){return 'User ';});
-Route::get('conversation','friendZone\testController@conversation');
+//Route::get('conversation','friendZone\testController@conversation');
 Route::get('friends','friendZone\testController@friends');
 Route::get('giftpage','friendZone\testController@giftpage');
 Route::get('gifttab1','friendZone\testController@gifttab1');
